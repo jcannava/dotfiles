@@ -109,7 +109,7 @@ set t_co=256
 source /usr/share/vim/addons/plugin/powerline.vim
 
 " set color theme
-colorscheme solarized8_light
+colorscheme solarized8_dark
 
 " enable pyflakes?
 filetype plugin indent on
