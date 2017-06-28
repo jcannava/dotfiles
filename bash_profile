@@ -13,8 +13,8 @@ c_time="\[\e[1;31m\]"
 c_reset="\[\e[00m\]"
 
 # Setup git-prompt.sh
-if [ -f ~/.git-prompt.sh ]; then
-  source ~/.git-prompt.sh
+if [ -f ~/.dotfiles/git-prompt.sh ]; then
+  source ~/.dotfiles/git-prompt.sh
   export GIT_PS1_SHOWDIRTYSTATE=1
   export GIT_PS1_SHOWSTASHSTATE=1
   export GIT_PS1_SHOWUNTRACKEDFILES=1
