@@ -26,4 +26,4 @@ else
   export PS1='\[\033[01;37m\]\u@\@h\[\033[01;34m\] \W$ '
 fi
 
-export PATH=/usr/local/bin:/usr/bin:$PATH
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
