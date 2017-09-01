@@ -96,17 +96,13 @@ set relativenumber
 " remove trailing whitespace on <leader>S
 noremap <leader>S :%s/\s\+$//<cr>:let @/=''<CR>
 
-" Load pathogen with docs for all plugins
-filetype off
-call pathogen#infect()
-Helptags
 filetype plugin indent on
 
 " powerline settings
 set laststatus=2
 set encoding=utf-8
 set t_co=256
-source /usr/share/vim/addons/plugin/powerline.vim
+source ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/vim/plugin/powerline.vim
 
 " set color theme
 colorscheme solarized8_dark
