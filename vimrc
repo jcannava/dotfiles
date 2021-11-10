@@ -98,14 +98,18 @@ noremap <leader>S :%s/\s\+$//<cr>:let @/=''<CR>
 
 filetype plugin indent on
 
+" Pathogen
+execute pathogen#infect()
+
 " powerline settings
 set laststatus=2
 set encoding=utf-8
 set t_co=256
-source ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/vim/plugin/powerline.vim
+source /usr/share/vim/vimfiles/plugin/powerline.vim
+" source ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/vim/plugin/powerline.vim
 
 " set color theme
-colorscheme solarized8_dark
+colorscheme solarized8
 
 " enable pyflakes?
 filetype plugin indent on
