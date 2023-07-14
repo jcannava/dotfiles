@@ -102,7 +102,7 @@ filetype plugin indent on
 set laststatus=2
 set encoding=utf-8
 set t_co=256
-source /usr/share/vim/vimfiles/plugin/powerline.vim
+source /usr/share/powerline/bindings/vim/plugin/powerline.vim
 " source ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/vim/plugin/powerline.vim
 
 " set color theme
