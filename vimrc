@@ -98,9 +98,6 @@ noremap <leader>S :%s/\s\+$//<cr>:let @/=''<CR>
 
 filetype plugin indent on
 
-" Pathogen
-execute pathogen#infect()
-
 " powerline settings
 set laststatus=2
 set encoding=utf-8
